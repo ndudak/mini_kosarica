@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrar', sans-serif;
+    font-size: 14px;
+}
+.main {
+    width: 390px;
+
+}
+.button_kosara {
+    float: right;
+}
+.slika_kosara {
+    width: 30px;
+    height: auto;
+}
+.kosara {
+    display: none;
+
+    box-shadow: 2px 2px #888888;
+    width: 390px;
+    height: content-box;
+    max-height: 320px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.proizvod {
+    display: flex;
+    width: 380px;
+    border-bottom: 4px #88888820 groove;
+}
+
+.slika {
+    width: 100px;
+    border-bottom: #888888;
+
+
+}
+
+.opis {
+    flex: auto;
+    width: 280px;
+
+    padding: 5px;
+}
+
+.naziv_artikla {
+
+}
+
+.brand {
+    flex: auto;
+    padding-top: 10px;
+
+}
+.boja {
+
+
+}
+
+.cijena {
+    padding-top: 10px;
+}
+.button_green {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
