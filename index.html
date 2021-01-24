@@ -19,7 +19,7 @@
 <body>
 <div class="main">
 <button class="button_kosara" type="button"
-        onclick="toggleDiv('id_kosara')" >
+        onclick="toggleDiv('id_kosara');toggleDiv('bg');toggleDiv('bw')" >
     <img class="slika_kosara" src="pic\icon.png" alt="Shop"></button>
 
 <div class="kosara" id="id_kosara">
@@ -71,7 +71,10 @@
     </div>
 
 </div>
-
+    <div class="bottom">
+    <div id="bw"><a href="#">Edit Cart</a></div>
+    <div id="bg"><a href="#">CHECKOUT</a></div>
+    </div>
 </div>
 </body>
 </html>
